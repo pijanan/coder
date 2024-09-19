@@ -1,9 +1,9 @@
 import random
 
-alive=True
-while alive==True:
-        dieals=["Coin","Teils"]
-        randomNummer=random.choice(dieals)
+isalive=True
+while isalive==True:
+        dice=["Coin","Teils"]
+        randomNummer=random.choice(dice)
         print(randomNummer)
         input()
     
